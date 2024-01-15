@@ -1,0 +1,170 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+    transition: background-color 0.5s ease;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-image: url(ad9a59f26ffc2f1405771ca9bb87e06a.jpg);
+    text-align: center;
+    padding: 100px;
+    font-size: larger;
+    background-color: #1e1e1e;
+    color: whitesmoke;
+    transition: background-color 0.5s ease;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+section {
+  
+    padding: 50px;
+    background-color: #333;
+    border-radius: 8px;
+    margin-top: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s ease;
+}
+
+#projects {
+    background-color: #292929;
+}
+
+.project-container {
+    display: flex;
+    overflow-x: auto;
+}
+
+.project-card {
+    flex: 0 0 300px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.project-card:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.project-card h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #61dafb;
+}
+
+.project-card p {
+    font-size: 14px;
+}
+
+#skills {
+    background-color: #1e1e1e;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    flex: 0 0 30%;
+    margin: 20px 0;
+    text-align: center;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+.skill-name {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #61dafb;
+}
+
+.progress-bar {
+    background-color: #333;
+    height: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #61dafb;
+}
+
+#contact {
+    background-color: #444;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #61dafb;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #333;
+    color: #fff;
+    transition: box-shadow 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 10px rgba(97, 218, 251, 0.7);
+}
+
+button {
+    padding: 10px;
+    background-color: #61dafb;
+    color: #121212;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3385ff;
+}
